@@ -4,8 +4,11 @@ This is an example on how to use the truerandom.py module:
 import truerandom
 
 min=0
+
 max=100
+
 amount=20
+
 mylist=[]
 
 mylist=truerandom.getnum(min,max,amount)
