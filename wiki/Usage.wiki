@@ -1,6 +1,6 @@
 This is an example on how to use the truerandom.py module:
 
-#-------------------------------------------
+-------------------------------------------
 import truerandom
 min=0
 max=100
@@ -11,7 +11,7 @@ mylist=truerandom.getnum(min,max,amount)
 
 for n in mylist:
     print n
-#-------------------------------------------
+-------------------------------------------
 
 You have to provide the minimum and maximum numbers in the random list you want to generate, as well as the amount of numbers.
 mylist will contain the true random numbers generated in int type.
